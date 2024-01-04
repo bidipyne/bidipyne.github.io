@@ -4,7 +4,87 @@
     <meta charset="UTF-8">
     <title>My Portfolio</title>
     <style>
-        /* Add your CSS styles here to format the page */
+        /* Reset some default browser styles */
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Apply a background color to the entire page */
+        body {
+            background-color: #f8f8f8;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        /* Style the header section */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        /* Style the navigation links */
+        nav ul {
+            list-style: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: #ff6600; /* Change the color on hover */
+        }
+        
+        /* Style the sections */
+        section {
+            padding: 40px;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Style the project titles */
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        /* Style the project information */
+        p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        
+        /* Style links within project sections */
+        a {
+            color: #0078d4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+
     </style>
 </head>
 <body>
