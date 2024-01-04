@@ -1,127 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
-    <style>
-        /* Reset some default browser styles */
-        body, h1, h2, p, ul {
-            margin: 0;
-            padding: 0;
-        }
-        
-        /* Apply a background color to the entire page */
-        body {
-            background-color: #f8f8f8;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        
-        /* Style the header section */
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        
-        /* Style the navigation links */
-        nav ul {
-            list-style: none;
-            text-align: center;
-            margin-top: 20px;
-        }
-        
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-        
-        nav ul li:last-child {
-            margin-right: 0;
-        }
-        
-        nav ul li a {
-            text-decoration: none;
-            color: #fff;
-            font-weight: bold;
-            transition: color 0.3s;
-        }
-        
-        nav ul li a:hover {
-            color: #ff6600; /* Change the color on hover */
-        }
-        
-        /* Style the sections */
-        section {
-            padding: 40px;
-            background-color: #fff;
-            margin: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        
-        /* Style the project titles */
-        h2 {
-            color: #333;
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-        
-        /* Style the project information */
-        p {
-            color: #666;
-            font-size: 16px;
-            line-height: 1.5;
-        }
-        
-        /* Style links within project sections */
-        a {
-            color: #0078d4;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        
-        a:hover {
-            text-decoration: underline;
-        }
-
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bidisha Pyne - Software Developer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <section id="home">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Explore my projects and learn more about me.</p>
-    </section>
+    <header>
+        <img src="images/profile.jpg" alt="Bidisha's Profile Picture">
+        <h1>Bidisha Pyne</h1>
+        <p>Software Developer</p>
+    </header>
 
-    <section id="project1">
-        <h2>My First Project</h2>
-        <p>Date: 2020-10-03</p>
-        <p>Author: Bidisha Pyne</p>
-        <p>Category: Test</p>
-        <p>This is a test post.</p>
-    </section>
-
-    <!-- Add more sections for additional projects or content -->
-    
-    <!-- Navigation links for scrolling -->
     <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#project1">Project 1</a></li>
-            <!-- Add links for other sections as needed -->
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    
-    <script>
-        // Add JavaScript for smooth scrolling to anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a dedicated professional with 6 years of experience in the software development industry. My journey began in Java
+        development, where I honed my skills in creating robust and efficient applications. Over time, I decided to venture into
+        the exciting world of mobile app development, allowing me to combine my technical expertise with my creativity to bring
+        unique app ideas to life.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: Java, Python, JavaScript</li>
+            <li>Front-End: HTML, CSS, React</li>
+            <li>Back-End: Node.js, Express</li>
+            <li>Databases: MySQL, MongoDB</li>
+            <li>Version Control: Git</li>
+            <li>Other: Agile, Scrum, Problem Solving</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>Masters in Computer Science</p>
+        <p>Graduation Date: May 2017</p>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <h3>Software Developer at Fujitsu (Current Job)</h3>
+        <p>Dates: December 2022 - Present</p>
+        <p>Your responsibilities and achievements in this role.</p>
+
+        <h3>Software Developer at Amdocs</h3>
+        <p>Dates: Sep 2020 - April 2022</p>
+        <p>Describe your role, projects, and accomplishments at this position.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <h3>E-commerce Website</h3>
+        <p>Brief description of the project, your role, and technologies used.</p>
+        <a href="https://github.com/johndoe/e-commerce-website">GitHub Repository</a>
+
+        <h3>Task Management App</h3>
+        <p>Explain the purpose, features, and your contributions to this app.</p>
+        <a href="https://www.example.com/task-management-app">Live Demo</a>
+    </section>
+
+    <section id="awards">
+        <h2>Awards and Certifications</h2>
+        <ul>
+            <li>AWS Certified Developer - Associate</li>
+            <li>Best Innovation Award - XYZ Hackathon</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:pyne.bidisha2017@gmail.com">pyne.bidisha2017@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Bidisha Pyne</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
