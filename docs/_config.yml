@@ -18,16 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: SparkAI Blopspot
-email: sparkaidea@gmail.com
+title: Bidisha Pyne
+email: pyne.bidisha2017@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    This Blog is of SparkAI Club which is an union of all Techies who love to collaborate and learn.
-    We invites all those who are passionate to do innovative work and appreciate the team who are brilliantly executing the goal.
-    We are group of techies who have created this space for all who might be working in different industry or students of various institutes.
+    I'm a dedicated professional with [X years of experience] in the software development industry. 
+    My journey began in Java development, where I honed my skills in creating robust and efficient applications. 
+    Over time, I decided to venture into the exciting world of mobile app development, allowing me to combine my technical expertise with my creativity to bring unique app ideas to life.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: sparkaidea
-github_username:  sparkaidea
+twitter_username: bidishaYne
+github_username:  bidipyne
 
 # Build settings
 theme: minima
